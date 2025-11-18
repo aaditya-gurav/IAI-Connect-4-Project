@@ -1,4 +1,4 @@
-# IAI-Connect-4-Project
+# Connect-4-Project
 
 This project implements the Connect 4 game in Python, featuring an AI opponent powered by the **Minimax algorithm** and a custom heuristic function. It also includes a competition framework to compare different AI agents, including a neural-network–based approach for a 5×5 board variant.
 
@@ -81,8 +81,3 @@ You will be prompted to choose from:
 * Expand neural network support to larger board configurations
 * More advanced heuristics for deeper Minimax search
 * Add a graphical game interface
-
-```
-
-If you want, I can also generate a short 2–3 line description for your resume or GitHub project cards.
-```
