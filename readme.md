@@ -1,11 +1,88 @@
-# CIS : 667 IAI-Connect-4-Project
+# IAI-Connect-4-Project
 
-We have implemented Connect 4 game in Python primarily using Minimax algoritm.
-***
-1. The following [Medium Post](https://medium.com/analytics-vidhya/artificial-intelligence-at-play-connect-four-minimax-algorithm-explained-3b5fc32e4a4f) was referred to while implementing the heuristic function. For Minimax algorithm implementation class code was referred.
+This project implements the Connect 4 game in Python, featuring an AI opponent powered by the **Minimax algorithm** and a custom heuristic function. It also includes a competition framework to compare different AI agents, including a neural-network–based approach for a 5×5 board variant.
 
-2. In order to download the required librabries, after downloading the repository just run the following command : `pip3 install  -r requirements.txt`
+---
 
-3. To run the interactive domain program, for playing game run the follwing command : `python3 play.py`
+## Features
 
-4. For running experiments, run the following commmand, upon running this command the program will ask you to enter any one of the competition you want to run. Currently there are 2 types of competitions, Tree Based AI vs Baseline AI and Neural Net vs Baseline AI. For the Neural Net only board size of 5x5 works : `python3 compete.py`
+- Interactive Connect 4 gameplay in the terminal.  
+- Minimax-based AI with an optimized heuristic evaluation.  
+- Baseline AI for comparison.  
+- Neural Network agent (supports only 5×5 board size).  
+- Competition engine for automated AI-vs-AI matches.
+
+---
+
+## References
+
+1. Heuristic design inspired by the Medium article:  
+   *“Artificial Intelligence at Play: Connect Four — Minimax Algorithm Explained”*.  
+2. Minimax structure influenced by standard adversarial search implementations.
+
+---
+
+## Installation
+
+Install dependencies using:
+
+```bash
+pip3 install -r requirements.txt
+````
+
+---
+
+## Run the Game
+
+Play an interactive Connect 4 match:
+
+```bash
+python3 play.py
+```
+
+This launches a terminal-based game where you can play against the Minimax-powered AI.
+
+---
+
+## Run Experiments
+
+Run AI competitions:
+
+```bash
+python3 compete.py
+```
+
+You will be prompted to choose from:
+
+* **Tree-Based AI vs Baseline AI**
+* **Neural Net vs Baseline AI**
+
+  * Neural network works only for **5×5** board configuration.
+
+---
+
+## Project Structure
+
+```
+├── play.py                # Interactive gameplay
+├── compete.py             # Competition and experiment runner
+├── models/                # Neural network components
+│   └── ...               
+├── utils/                 # Helper functions and core game logic
+│   └── ...
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
+```
+
+---
+
+## Future Enhancements
+
+* Expand neural network support to larger board configurations
+* More advanced heuristics for deeper Minimax search
+* Add a graphical game interface
+
+```
+
+If you want, I can also generate a short 2–3 line description for your resume or GitHub project cards.
+```
